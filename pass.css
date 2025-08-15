@@ -1,0 +1,51 @@
+ul li a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+ul li{
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+ button{
+    background-color: black;
+    color: white;
+ }
+header img{
+    height: 400px;
+    width: 400px;
+ }
+header{
+    display: flex;
+    justify-content: space-around;
+}
+button:hover{
+    color: goldenrod;
+}
+
+
+/* media query */
+
+@media only screen and (max-width:850px){
+    ul li{
+        display: none;
+    }
+    header{
+        flex-direction: column;
+    }
+    .broke p{
+        width: 100%;
+    }
+    .bro{
+        align-items: center;
+    }
+
+}
+
